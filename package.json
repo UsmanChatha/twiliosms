@@ -1,0 +1,22 @@
+{
+  "name": "smsbot",
+  "version": "1.0.0",
+  "description": "A simple SMS sending bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Srini Janarthanam",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "request": "^2.72.0",
+    "twilio": "^2.11.1"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
